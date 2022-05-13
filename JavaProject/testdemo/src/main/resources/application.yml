@@ -1,0 +1,12 @@
+person:
+  lastName: 张三
+  age: 18
+  boss: false
+  birth: 1990/12/12
+  maps: { k1: v1,k2: 12 }
+  lists:
+    ‐ lisi
+    ‐ zhaoliu
+  dog:
+    name: 迪迪
+    age: 5

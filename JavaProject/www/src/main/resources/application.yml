@@ -1,0 +1,85 @@
+#默认配置
+#server:
+#  port: 8080
+#person:
+#  lastName: 张三
+#  age: 18
+#  boss: false
+#  birth: 1990/12/12
+#  maps: { k1: v1,k2: 12 }
+#  lists:
+#    ‐ lisi
+#    ‐ zhaoliu
+#  dog:
+#    name: 迪迪
+#    age: 5
+
+
+##切换配置
+#spring:
+#  profiles:
+#    active: test
+#---
+##开发环境
+#server:
+#  port: 8081
+#spring:
+#  config:
+#    activate:
+#      on-profile: dev
+#---
+##测试环境
+#server:
+#  port: 8082
+#spring:
+#  config:
+#    activate:
+#      on-profile: test
+#---
+##生产环境
+#server:
+#  port: 8083
+#spring:
+#  config:
+#    activate:
+#      on-profile: prod
+
+#server:
+#  port: 8080 #端口号
+#  servlet:
+#    context-path: /mybootdemo #上下文路径或项目访问路径
+#spring:
+#  profiles:
+#    active: dev #激活开发环境配置
+
+#默认配置
+server:
+  port: 8080
+#切换配置
+spring:
+  profiles:
+    active: dev
+---
+#开发环境
+server:
+  port: 8081
+spring:
+  config:
+    activate:
+      on-profile: dev
+---
+#测试环境
+server:
+  port: 8082
+spring:
+  config:
+    activate:
+      on-profile: test
+---
+#生产环境
+server:
+  port: 8083
+spring:
+  config:
+    activate:
+      on-profile: prod

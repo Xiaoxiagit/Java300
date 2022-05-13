@@ -1,0 +1,7 @@
+#类路径下的 config 目录下
+#端口号为8084
+#上下文路径为 /helloWorld
+server:
+  port: 8084
+  servlet:
+    context-path: /helloworld
